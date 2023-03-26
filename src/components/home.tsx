@@ -74,23 +74,21 @@ const Home = () => {
           <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left">
             My name is{" "}
             <Box as="strong" fontWeight="600">
-              Ahmad
+              joão
             </Box>{" "}
             and I&apos;m a{" "}
             <Box as="span" whiteSpace="nowrap">
-              Full Stack Developer and
+              Developer
             </Box>{" "}
             <Box as="span" whiteSpace="nowrap">
-              an open source lover&nbsp;
             </Box>
             from{" "}
             <Box as="span" whiteSpace="nowrap">
-              Pakistan 🇵🇰
+              Brazil
             </Box>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
-            This is my digital garden, where I write about the things I'm
-            working on and share what I've learned. 😊
+            This is my personal site - building - in progress
           </Box>
         </MotionFlex>
       </Flex>
@@ -110,48 +108,6 @@ const Home = () => {
         }}
       >
         <Box mt={10}>
-          <Stack
-            mb={10}
-            mx={[0, 0, 10]}
-            padding={4}
-            align="start"
-            borderLeft="4px solid"
-            borderColor={"#53c8c4"}
-            color={"whatsapp"}
-            _hover={{ shadow: "lg" }}
-            backgroundColor={useColorModeValue("gray.100", "#1e2533")}
-            rounded="sm"
-            fontSize="md"
-          >
-            <Text textAlign="center" color="#53c8c4" fontWeight="bold">
-              Highlights
-            </Text>
-            <UnorderedList textAlign="left" paddingLeft={5} m={0}>
-            <ListItem>
-                <Link as={NavLink} to="/open-source">
-                  Live/Local Github Repos
-                  <Badge ml="1" colorScheme="green">
-                    New
-                  </Badge>
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link as={NavLink} to="/story-timeline">
-                  Story page
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link as={NavLink} to="/tech-stack">
-                  Tech Stack
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link as={NavLink} to="/achievements">
-                  Achievements
-                </Link>
-              </ListItem>
-            </UnorderedList>
-          </Stack>
           <Projects projects={projectsList} />
         </Box>
       </MotionBox>
