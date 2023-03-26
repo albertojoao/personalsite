@@ -146,31 +146,7 @@ export default function TopNav() {
                       </HStack>
                     </MenuItem>
                   </Link>
-                  <Link as={RouterNavLink} to="/open-source">
-                    <MenuItem>
-                      <HStack>
-                        <Icon
-                          as={BsBook}
-                          size={18}
-                          color={useColorModeValue("blue.500", "blue.200")}
-                        />
-                        <Text>Open Source</Text>
-                      </HStack>
-                    </MenuItem>
-                  </Link>
-                  <Link as={RouterNavLink} to="/story-timeline">
-                    <MenuItem>
-                      <HStack>
-                        <Icon
-                          as={MdTimeline}
-                          size={18}
-                          color={useColorModeValue("blue.500", "blue.200")}
-                        />
-                        <Text>Developer Story</Text>
-                      </HStack>
-                    </MenuItem>
-                  </Link>
-                  <Link as={RouterNavLink} to="/achievements">
+                  <Link as={RouterNavLink} to="/timeline">
                     <MenuItem>
                       <HStack>
                         <Icon
