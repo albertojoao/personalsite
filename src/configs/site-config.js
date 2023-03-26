@@ -10,7 +10,7 @@ import { FiMail } from "react-icons/fi";
 const siteConfig = {
   copyright: `Copyright © ${new Date().getFullYear()} Muhammad Ahmad. All Rights Reserved.`,
   author: {
-    name: "Muhammad Ahmad",
+    name: "",
     accounts: [
       {
         url: "https://twitter.com/albertojooao",

@@ -101,13 +101,7 @@ export const institutes = [
 ];
 
 export const skills = [
-  {
-    name: "Ruby on Rails",
-    description: "Web development",
-    link: "https://rubyonrails.org/",
-    type: "development",
-    image: rails
-  },
+  
   {
     name: "React",
     description: "Web development",
@@ -115,13 +109,7 @@ export const skills = [
     type: "development",
     image: react
   },
-  {
-    name: "Ruby",
-    description: "Web development, scrapping",
-    link: "https://www.ruby-lang.org/en/",
-    type: "development",
-    image: ruby
-  },
+
   {
     name: "Python",
     description: "Web development, scrapping",
@@ -157,34 +145,15 @@ export const skills = [
     type: "design",
     image: css3
   },
+
   {
-    name: "Bootstrap",
-    description: "Web design",
-    link: "https://getbootstrap.com/",
-    type: "design",
-    image: bootstrap
-  },
-  {
-    name: "Postgres",
+    name: "MongoDB",
     description: "Database",
-    link: "https://www.postgresql.org/",
+    link: "https://www.mongodb.com//",
     type: "database",
     image: postgres
   },
-  {
-    name: "Mysql",
-    description: "Database",
-    link: "https://www.mysql.com/",
-    type: "database",
-    image: mysql
-  },
-  {
-    name: "Redis",
-    description: "Database",
-    link: "https://redis.io/",
-    type: "database",
-    image: redis
-  },
+
   {
     name: "Heroku",
     description: "Devops",
@@ -192,27 +161,7 @@ export const skills = [
     type: "devops",
     image: heroku
   },
-  {
-    name: "AWS",
-    description: "Devops",
-    link: "https://aws.amazon.com/",
-    type: "devops",
-    image: aws
-  },
-  {
-    name: "Digital Ocean",
-    description: "Devops",
-    link: "https://www.digitalocean.com/",
-    type: "devops",
-    image: docean
-  },
-  {
-    name: "Nginx",
-    description: "Web server",
-    link: "https://www.nginx.com/",
-    type: "devops",
-    image: nginx
-  },
+
   {
     name: "Visual Studio Code",
     description: "Code editor of choice",
@@ -221,10 +170,10 @@ export const skills = [
     image: vscode
   },
   {
-    name: "Figma",
-    description: "Collaborative Design",
-    link: "https://www.figma.com/",
-    type: "design",
-    image: figma
-  }
+    name: "Git",
+    description: "code version control  ",
+    link: "https://git-scm.com/",
+    type: "development",
+  },
+  
 ];
