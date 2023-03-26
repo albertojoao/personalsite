@@ -47,7 +47,7 @@ const Navigation = () => {
           render={props => <route.component {...props} />}
         />
       ))}
-      <Redirect to="/" />
+      <Redirect to="/achievements" />
     </Switch>
   );
 };
